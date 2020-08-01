@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../Componentes/PageDefault';
@@ -72,23 +73,12 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição:"
+          label="Descrição"
           type="????"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
         />
-        {/* <div>
-          <label>
-            Descrição:
-            <textarea
-              type="text"
-              value={values.descricao}
-              name="descricao"
-              onChange={handleChange}
-            />
-          </label>
-        </div> */}
 
         <FormField
           label="Cor"
@@ -97,17 +87,6 @@ function CadastroCategoria() {
           value={values.cor}
           onChange={handleChange}
         />
-        {/* <div>
-          <label>
-            Cor:
-            <input
-              type="color"
-              value={values.cor}
-              name="cor"
-              onChange={handleChange}
-            />
-          </label>
-        </div> */}
 
         <button type="submit">
           Cadastrar
@@ -129,4 +108,5 @@ function CadastroCategoria() {
   );
 }
 
+// eslint-disable-next-line eol-last
 export default CadastroCategoria;
