@@ -1,183 +1,184 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Ministrações",
+      "link": "https://www.youtube.com/user/gestorwebibm",
+      "cor": "#0000ff",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Mensagens bíblicas para enteder como Deus age nas nossas vidas",
+        "url": "https://www.youtube.com/user/gestorwebibm"
       },
       "videos": [
         {
-          "titulo": "Darkness Divided - Misery",
+          "titulo": "Phinehas - I Am The Lion (Legendado)",
+          "url": "https://www.youtube.com/watch?v=YOIOjs__hv0"
+        },
+        {
+          "titulo": "Celebração || 22.07.2020 || A Escolha do Crescimento",
+          "url": "https://www.youtube.com/watch?v=10ooRb0dr74&t=2435s"
+        },
+        {
+          "titulo": "ÁGEIS CONTRA A OPRESSÃO - Pr Carlito Paes || Celebração Dominical - 28/06/2020 10:00",
+          "url": "https://www.youtube.com/watch?v=0Bs7HuT0bNE"
+        },
+        {
+          "titulo": "Programa Domingo em Família | Convidado Pr. Luciano Subirá",
+          "url": "https://www.youtube.com/watch?v=0VMKdmt6gv4"
+        },
+        {
+          "titulo": "Tiago Brunet Você já foi perseguido?",
+          "url": "https://www.youtube.com/watch?v=m9AIwi-O9yU"
+        },
+        {
+          "titulo": "Celebração dos Homens || 30.07.2020 || Descobrindo os segredos da alma do homem",
+          "url": "https://www.youtube.com/watch?v=OOhWzxps4Bo"
+        },
+        {
+          "titulo": "Inspiração para Liderar!",
+          "url": "https://www.youtube.com/watch?v=JLRAbePcsJI"
+        },
+        {
+          "titulo": "Paz ou Guerra?",
+          "url": "https://www.youtube.com/watch?v=by2Mp0hH4Ns"
+        }
+      ]
+    },
+    {
+      "titulo": "Música",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Canal: Jesus Last Hope",
+        "url": "https://www.youtube.com/channel/UC9QQuJGl52fQ7vZISKdEW6A"
+      },
+      "videos": [
+        {
+          "titulo": "Darkness Divided - Misery (Caption/Legendado)",
           "url": "https://www.youtube.com/watch?v=jV5oSv0g6hI"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Fit For A King - Descendants (Legendado)",
+          "url": "https://www.youtube.com/watch?v=MvpO_c0TnQE"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Iron Sharpens Iron - Your Blood (Caption/Legendado)",
+          "url": "https://www.youtube.com/watch?v=fxJuVWQWZ6E"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-        },
-        {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-        },
-        {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-        },
-        {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
-      ]
-    },
-    {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "videos": [
-        {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-        },
-        {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-        },
-        {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-        },
-        {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Close Your Eyes - Song For The Broken (Legendado)",
+          "url": "https://www.youtube.com/watch?v=nPhSC3ELtNQ"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "What Jesus would have screamed",
+          "url": "https://www.youtube.com/watch?v=hNksHqWHGao&t=137s"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Tecnologia",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Desenvolvimento e arquitetura de software",
+        "url": "https://www.youtube.com/user/codigofontetv"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Hands On: Criando APIs com Node e TypeScript",
+          "url": "https://www.youtube.com/watch?v=ILUGFEgfYXU"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Trabalho Remoto: Como Ganhar em Dólar com Programação? (feat X-Team)",
+          "url": "https://www.youtube.com/watch?v=0C-_6H4P20E&t=14s"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Nativo, Híbrido ou PWA? (Super Conselho #4)",
+          "url": "https://www.youtube.com/watch?v=eQOiG0W8wG0"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Tutorial ASP.NET MVC 5 + DDD + EF + AutoMapper + IoC + Dicas e Truques",
+          "url": "https://www.youtube.com/watch?v=i9Il79a2uBU&feature=youtu.be"
+        },
+        {
+          "titulo": "EF Core 3.1 - Apresentando os recursos do Migrations - III",
+          "url": "https://www.youtube.com/watch?v=9SjBgBBNs1o"
+        },
+        {
+          "titulo": "Princípios SOLID em uma API REST com Node.js e TypeScript | Code/Drops #44",
+          "url": "https://www.youtube.com/watch?v=vAV4Vy4jfkc"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Entretenimento",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "CURIOSIDADES de CHAVES que VOCÊ NÃO SABIA!",
+          "url": "https://www.youtube.com/watch?v=hn13cUSwtfY&t=181s"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "QUEM DIABOS É A VELHA DO QUAKER?",
+          "url": "https://www.youtube.com/watch?v=npnueO7Tv2s"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "A TRAGÉDIA com GELO SECO na RÚSSIA",
+          "url": "https://www.youtube.com/watch?v=8p8F1cYveSo"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "SEU COMPUTADOR FAZ ISSO! E VOCÊ NÃO SABIA! (Parte 1) - Windows 10",
+          "url": "https://www.youtube.com/watch?v=1n-1LppsBrQ"
+        },
+        {
+          "titulo": "Fizemos a bike elétrica de furadeira do Celso Portiolli",
+          "url": "https://www.youtube.com/watch?v=yrxLGWnfkVI"
         }
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
+      "titulo": "Natureza",
+      "cor": "#00C86F",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "A SERPENTE MAIS TEMIDA DA AMAZÔNIA! | RICHARD RASMUSSEN",
+          "url": "https://www.youtube.com/watch?v=zNHN_UWcHlA&list=PLo7hxm4WU4kmBT74XdVBWhb5vaEZGsiWl"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "A GIGANTESCA CARANGUEJEIRA! | QUE BICHO É ESSE? | RICHARD RASMUSSEN",
+          "url": "https://www.youtube.com/watch?v=UyAQ4N6aULw&list=PLo7hxm4WU4kmBT74XdVBWhb5vaEZGsiWl&index=17"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "DIFERENÇAS ENTRE JABUTI, TARTARUGA E CÁGADO",
+          "url": "https://www.youtube.com/watch?v=cj0--N372co"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "TUDO SOBRE RÉPTEIS | LAGARTO TEIÚ",
+          "url": "https://www.youtube.com/watch?v=vpOO6EQsmfw&t=13s"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
+      "titulo": "Comédia",
+      "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Sorrir faz bem pra vida: pra sua e para a dos outros ;)"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "S04E22 - Calvin vem pra ficar HD DUBLADO",
+          "url": "https://www.youtube.com/watch?v=a4QHfGbCDx8"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "NARRANDO A CENA (clássicos #19)",
+          "url": "https://www.youtube.com/watch?v=y4Qsnh0_2f8"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "PASTEL GIGANTE - PASTELZINHO, PASTEL, PASTELZÃO (pastelão)",
+          "url": "https://www.youtube.com/watch?v=qP3a9nfqP1k"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "ESCOLA: O apelido que eu não gostava. (Paródia - Romântico anônimo)",
+          "url": "https://www.youtube.com/watch?v=UBBaQ93hl4M&list=PLdOPnrT_x9qeZJtaLnTxpGVojQtZ3Ajxk&index=7"
         }
       ]
     }
