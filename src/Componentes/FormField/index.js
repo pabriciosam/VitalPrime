@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
@@ -107,4 +108,5 @@ FormField.propTypes = {
   onChange: PropTypes.func.isRequired,
 };
 
+// eslint-disable-next-line eol-last
 export default FormField;

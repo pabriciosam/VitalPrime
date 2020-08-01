@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../Componentes/PageDefault';
 import FormField from '../../../Componentes/FormField';
+import Buttons from '../../../Componentes/Buttons';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -10,6 +11,7 @@ function CadastroCategoria() {
     descricao: '',
     cor: '',
   };
+
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
 
@@ -28,22 +30,19 @@ function CadastroCategoria() {
     );
   }
 
-  // ============
-
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categorias';
-      fetch(URL)
-        .then(async (respostaDoServer) => {
-          if (respostaDoServer.ok) {
-            const resposta = await respostaDoServer.json();
-            setCategorias(resposta);
-            return;
-          }
-          throw new Error('Não foi possível pegar os dados');
-        });
-    }
-  }, []);
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://vitalprime.herokuapp.com/categorias';
+
+    fetch(URL_TOP)
+      .then(async (respostaDoServer) => {
+        const resposta = await respostaDoServer.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+  });
 
   return (
     <PageDefault>
@@ -65,33 +64,36 @@ function CadastroCategoria() {
       >
 
         <FormField
-          label="Nome da Categoria"
+          label="Nome da categoria"
           type="text"
-          name="nome"
           value={values.nome}
+          name="nome"
           onChange={handleChange}
         />
 
         <FormField
           label="Descrição"
-          type="????"
-          name="descricao"
+          type="textarea"
           value={values.descricao}
+          name="descricao"
           onChange={handleChange}
         />
 
         <FormField
           label="Cor"
           type="color"
-          name="cor"
           value={values.cor}
+          name="cor"
           onChange={handleChange}
         />
-
-        <button type="submit">
-          Cadastrar
-        </button>
+        <Buttons>Cadastrar</Buttons>
       </form>
+
+      {categorias.length === 0 && (
+      <div>
+        Loading...
+      </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => (
@@ -101,9 +103,7 @@ function CadastroCategoria() {
         ))}
       </ul>
 
-      <Link to="/">
-        Ir para home
-      </Link>
+      <Link to="/" style={{ textDecoration: 'none', color: '#3CCBCE' }}>Ir pra home</Link>
     </PageDefault>
   );
 }
