@@ -4,51 +4,24 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../Componentes/PageDefault';
 import FormField from '../../../Componentes/FormField';
 import Buttons from '../../../Componentes/Buttons';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    // chave: nome, descricao, bla, bli
-    setValues({
-      ...values,
-      [chave]: valor, // nome: 'valor'
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
-
-  useEffect(() => {
-    const URL_TOP = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'https://vitalprime.herokuapp.com/categorias';
-
-    fetch(URL_TOP)
-      .then(async (respostaDoServer) => {
-        const resposta = await respostaDoServer.json();
-        setCategorias([
-          ...resposta,
-        ]);
-      });
-  });
 
   return (
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
@@ -59,15 +32,15 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
         <FormField
-          label="Nome da categoria"
+          label="Título da categoria"
           type="text"
-          value={values.nome}
-          name="nome"
+          value={values.titulo}
+          name="titulo"
           onChange={handleChange}
         />
 
@@ -108,5 +81,4 @@ function CadastroCategoria() {
   );
 }
 
-// eslint-disable-next-line eol-last
 export default CadastroCategoria;

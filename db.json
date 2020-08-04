@@ -1,21 +1,285 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Front End",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Ministrações",
+      "cor": "#0000ff",
+      "link_extra": {
+        "text": "Mensagens bíblicas para enteder como Deus age nas nossas vidas",
+        "url": "https://www.youtube.com/user/gestorwebibm"
       }
-     ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "id": 2,
+      "titulo": "Música",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Canal: Jesus Last Hope",
+        "url": "https://www.youtube.com/channel/UC9QQuJGl52fQ7vZISKdEW6A"
       }
-    ]
-  }
+    },
+    {
+      "id": 3,
+      "titulo": "Tecnologia",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Desenvolvimento e arquitetura de software",
+        "url": "https://www.youtube.com/user/codigofontetv"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Entretenimento",
+      "cor": "orange"
+    },
+    {
+      "id": 5,
+      "titulo": "Natureza",
+      "cor": "#00C86F"
+    },
+    {
+      "id": 6,
+      "titulo": "Comédia",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Sorrir faz bem pra vida: pra sua e para a dos outros ;)"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Phinehas - I Am The Lion (Legendado)",
+      "url": "https://www.youtube.com/watch?v=YOIOjs__hv0"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Celebração || 22.07.2020 || A Escolha do Crescimento",
+      "url": "https://www.youtube.com/watch?v=10ooRb0dr74&t=2435s"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "ÁGEIS CONTRA A OPRESSÃO - Pr Carlito Paes || Celebração Dominical - 28/06/2020 10:00",
+      "url": "https://www.youtube.com/watch?v=0Bs7HuT0bNE"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Programa Domingo em Família | Convidado Pr. Luciano Subirá",
+      "url": "https://www.youtube.com/watch?v=0VMKdmt6gv4"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Tiago Brunet Você já foi perseguido?",
+      "url": "https://www.youtube.com/watch?v=m9AIwi-O9yU"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Celebração dos Homens || 30.07.2020 || Descobrindo os segredos da alma do homem",
+      "url": "https://www.youtube.com/watch?v=OOhWzxps4Bo"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Inspiração para Liderar!",
+      "url": "https://www.youtube.com/watch?v=JLRAbePcsJI"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Paz ou Guerra?",
+      "url": "https://www.youtube.com/watch?v=by2Mp0hH4Ns"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Darkness Divided - Misery (Caption/Legendado)",
+      "url": "https://www.youtube.com/watch?v=jV5oSv0g6hI"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Fit For A King - Descendants (Legendado)",
+      "url": "https://www.youtube.com/watch?v=MvpO_c0TnQE"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Iron Sharpens Iron - Your Blood (Caption/Legendado)",
+      "url": "https://www.youtube.com/watch?v=fxJuVWQWZ6E"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Close Your Eyes - Song For The Broken (Legendado)",
+      "url": "https://www.youtube.com/watch?v=nPhSC3ELtNQ"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "What Jesus would have screamed",
+      "url": "https://www.youtube.com/watch?v=hNksHqWHGao&t=137s"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Hands On: Criando APIs com Node e TypeScript",
+      "url": "https://www.youtube.com/watch?v=ILUGFEgfYXU"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Trabalho Remoto: Como Ganhar em Dólar com Programação? (feat X-Team)",
+      "url": "https://www.youtube.com/watch?v=0C-_6H4P20E&t=14s"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Nativo, Híbrido ou PWA? (Super Conselho #4)",
+      "url": "https://www.youtube.com/watch?v=eQOiG0W8wG0"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Tutorial ASP.NET MVC 5 + DDD + EF + AutoMapper + IoC + Dicas e Truques",
+      "url": "https://www.youtube.com/watch?v=i9Il79a2uBU&feature=youtu.be"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "EF Core 3.1 - Apresentando os recursos do Migrations - III",
+      "url": "https://www.youtube.com/watch?v=9SjBgBBNs1o"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Princípios SOLID em uma API REST com Node.js e TypeScript | Code/Drops #44",
+      "url": "https://www.youtube.com/watch?v=vAV4Vy4jfkc"
+    },
+    {
+      "titulo": "CURIOSIDADES de CHAVES que VOCÊ NÃO SABIA!",
+      "url": "https://www.youtube.com/watch?v=hn13cUSwtfY&t=181s",
+      "categoriaId": 4,
+      "id": 20
+    },
+    {
+      "titulo": "QUEM DIABOS É A VELHA DO QUAKER?",
+      "url": "https://www.youtube.com/watch?v=npnueO7Tv2s",
+      "categoriaId": 4,
+      "id": 21
+    },
+    {
+      "titulo": "A TRAGÉDIA com GELO SECO na RÚSSIA",
+      "url": "https://www.youtube.com/watch?v=8p8F1cYveSo",
+      "categoriaId": 4,
+      "id": 22
+    },
+    {
+      "titulo": "SEU COMPUTADOR FAZ ISSO! E VOCÊ NÃO SABIA! (Parte 1) - Windows 10",
+      "url": "https://www.youtube.com/watch?v=1n-1LppsBrQ",
+      "categoriaId": 4,
+      "id": 23
+    },
+    {
+      "titulo": "Fizemos a bike elétrica de furadeira do Celso Portiolli",
+      "url": "https://www.youtube.com/watch?v=yrxLGWnfkVI",
+      "categoriaId": 4,
+      "id": 24
+    },
+    {
+      "titulo": "A SERPENTE MAIS TEMIDA DA AMAZÔNIA! | RICHARD RASMUSSEN",
+      "url": "https://www.youtube.com/watch?v=zNHN_UWcHlA&list=PLo7hxm4WU4kmBT74XdVBWhb5vaEZGsiWl",
+      "categoriaId": 5,
+      "id": 25
+    },
+    {
+      "titulo": "A GIGANTESCA CARANGUEJEIRA! | QUE BICHO É ESSE? | RICHARD RASMUSSEN",
+      "url": "https://www.youtube.com/watch?v=UyAQ4N6aULw&list=PLo7hxm4WU4kmBT74XdVBWhb5vaEZGsiWl&index=17",
+      "categoriaId": 5,
+      "id": 26
+    },
+    {
+      "titulo": "DIFERENÇAS ENTRE JABUTI, TARTARUGA E CÁGADO",
+      "url": "https://www.youtube.com/watch?v=cj0--N372co",
+      "categoriaId": 5,
+      "id": 27
+    },
+    {
+      "titulo": "TUDO SOBRE RÉPTEIS | LAGARTO TEIÚ",
+      "url": "https://www.youtube.com/watch?v=vpOO6EQsmfw&t=13s",
+      "categoriaId": 5,
+      "id": 28
+    },
+    {
+      "titulo": "JALAPÃO - Tocantins, Brasil",
+      "url": "https://www.youtube.com/watch?v=ZK2fjrM_HTc",
+      "categoriaId": 5,
+      "id": 29
+    },
+    {
+      "titulo": "S04E22 - Calvin vem pra ficar HD DUBLADO",
+      "url": "https://www.youtube.com/watch?v=a4QHfGbCDx8",
+      "categoriaId": 6,
+      "id": 30
+    },
+    {
+      "titulo": "NARRANDO A CENA (clássicos #19)",
+      "url": "https://www.youtube.com/watch?v=y4Qsnh0_2f8",
+      "categoriaId": 6,
+      "id": 31
+    },
+    {
+      "titulo": "PASTEL GIGANTE - PASTELZINHO, PASTEL, PASTELZÃO (pastelão)",
+      "url": "https://www.youtube.com/watch?v=qP3a9nfqP1k",
+      "categoriaId": 6,
+      "id": 32
+    },
+    {
+      "titulo": "ESCOLA: O apelido que eu não gostava. (Paródia - Romântico anônimo)",
+      "url": "https://www.youtube.com/watch?v=UBBaQ93hl4M&list=PLdOPnrT_x9qeZJtaLnTxpGVojQtZ3Ajxk&index=7",
+      "categoriaId": 6,
+      "id": 33
+    },
+    {
+      "titulo": "LEVE GRAÇA: Vida Acima da Ansiedade - Pra. Leila Paes || 19.07.20 18:00",
+      "url": "https://www.youtube.com/watch?v=nZXEDO_PMXE&t=45s",
+      "categoriaId": 1,
+      "id": 34
+    },
+    {
+      "titulo": "O Segredo Para o Próximo Nível - Tiago Brunet",
+      "url": "https://www.youtube.com/watch?v=Z35COhi6JsQ",
+      "categoriaId": 1,
+      "id": 35
+    },
+    {
+      "titulo": "Rodolfo Abrantes - Até que a casa esteja cheia (ao vivo)",
+      "url": "https://www.youtube.com/watch?v=TPznljxuVYg",
+      "categoriaId": 2,
+      "id": 36
+    },
+    {
+      "titulo": "DVD AO VIVO - Alva no Monte Serrat",
+      "url": "https://www.youtube.com/watch?v=gYW8t0O7l1E&t=74s",
+      "categoriaId": 2,
+      "id": 37
+    },
+    {
+      "titulo": "DOCUMENTARIO ANIMAIS SELVAGEM BRASIL!",
+      "url": "https://www.youtube.com/watch?v=5F3Pd3l7CPI",
+      "categoriaId": 5,
+      "id": 38
+    },
+    {
+      "titulo": "DESENHOS INJUSTIÇADOS QUE ERAM TERRÍVEIS MAS VOCÊ ADORAVA!",
+      "url": "https://www.youtube.com/watch?v=1abD-IgB0cw",
+      "categoriaId": 4,
+      "id": 39
+    }
+  ]
+}
